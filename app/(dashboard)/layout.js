@@ -19,11 +19,10 @@ const layout = ({ children }) => {
           htmlFor="my-drawer-2"
           aria-label="close sidebar"
           className="drawer-overlay"
-        />
+        ></label>
         <Sidebar />
       </div>
     </div>
   );
 };
-
 export default layout;
